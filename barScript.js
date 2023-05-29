@@ -59,8 +59,10 @@ function setBarColor(invert = false) {
   if (!invert) {
     document.body.style.setProperty("--bg-color-nav", "#eaeaea");
     document.body.style.setProperty("--text-nav-color", "#000000");
+    document.body.style.setProperty("--logo-color", "0");
   } else {
     document.body.style.setProperty("--bg-color-nav", "#222b34");
     document.body.style.setProperty("--text-nav-color", "#eaeaea");
+    document.body.style.setProperty("--logo-color", "1");
   }
 }

@@ -14,6 +14,8 @@
   --light-font: 100;
   --bold-font: 500;
   --extrabold-font: 600;
+
+  --logo-color: 1;
 }
 
 * {
@@ -303,6 +305,23 @@ nav {
   height: 30vh;
 }
 
+#logo {
+  display: flex;
+}
+
+#logo img {
+  width: 5vw;
+  height: 5vw;
+
+  max-width: 40px;
+  max-height: 40px;
+
+  margin-right: 10%;
+  position: relative;
+  filter: invert(var(--logo-color));
+  transform: scaleX(-1);
+}
+
 ul {
   list-style: none;
   gap: 5rem;
@@ -490,8 +509,6 @@ video {
   margin: auto;
 
   overflow-x: hidden;
-
-  background-color: black;
 }
 
 #videoContent {

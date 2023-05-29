@@ -111,6 +111,23 @@ a {
   position: relative;
 }
 
+#logo {
+  display: flex;
+}
+
+#logo img {
+  width: 5vw;
+  height: 5vw;
+
+  max-width: 40px;
+  max-height: 40px;
+
+  margin-right: 10%;
+  position: relative;
+  filter: invert(1);
+  transform: scaleX(-1);
+}
+
 /*Fim do Navbar*/
 
 .text {
